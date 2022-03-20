@@ -11,12 +11,6 @@
         <content type="html"><![CDATA[<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><h2 id="第一种解决方法"><a href="#第一种解决方法" class="headerlink" title="第一种解决方法"></a>第一种解决方法</h2><p><strong>注意：此方法搬运自吾爱破解论坛：<a href="https://www.52pojie.cn/thread-1606148-3-2.html%EF%BC%8C%E5%A6%82%E6%9C%89%E4%BE%B5%E6%9D%83%E5%8F%AF%E8%81%94%E7%B3%BB%E5%88%A0%E9%99%A4%E3%80%82">https://www.52pojie.cn/thread-1606148-3-2.html，如有侵权可联系删除。</a></strong></p><p>1、进入【带命令行的安全模式】。<br> ①按下F8键不放（有的是按住shift键不放），在点击“重启”。直到显示选择【继续】&amp;【疑难解答】&amp;【关闭电脑】,松开按键。</p><p> ②选择【疑难解答】→【高级选项】→【启动设置】→【重启】→【选择“6）带命令行的安全模式”】。</p><p><img src="https://gitee.com/cxuwu/tuchuang/raw/460e1a87d32ee01fdf6b0b28ed24da1f0cb4f2bd/%E5%90%AF%E5%8A%A8%E8%AE%BE%E7%BD%AE.png" alt="示例1"></p><p>2.运行过程结束时，系统列出了系统超级用户“administrator”和本地用户users的选择菜单，鼠标单击【administrator】，进入命令行模式。</p><p><img src="https://gitee.com/cxuwu/tuchuang/raw/master/%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AF%86%E7%A0%812.png" alt="示例3"></p><p><img src="https://gitee.com/cxuwu/tuchuang/raw/master/%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4%E8%A1%8C.png" alt="示例2"></p><p>3.①键入命令：“net user users 123456/add”+回车，强制将“users”（开机用户名）的口令(开机密码)更改为“123456/add”。</p><p>②键入命令：“net user Administrator 123456/d”+回车，强制将“Administrator”（开机用户名）的口令(开机密码)更改为“123456/d”。</p><p>4、重新启动计算机，选择正常模式下运行。可以左下角选择:</p><p> ①管理员登录。</p><p> ②“users”账号登录。</p><p><img src="https://gitee.com/cxuwu/tuchuang/raw/master/%E7%94%A8%E6%88%B7%E8%B4%A6%E5%8F%B7%E7%99%BB%E9%99%86.png" alt="示例4"></p><p>5、登录Administrator账户，将【Hao】加入管理员。</p><p><img src="https://gitee.com/cxuwu/tuchuang/raw/master/%E5%8A%A0%E5%85%A5%E7%AE%A1%E7%90%86%E5%91%98.png" alt="示例5"></p><p>6、重启电脑，正常模式登录。</p><h2 id="第二种解决方法"><a href="#第二种解决方法" class="headerlink" title="第二种解决方法"></a>第二种解决方法</h2><p>1.准备工具：u盘（建议大于8GB）、有效的网络</p><p>2.开始安装；参考教程(<a href="https://www.bilibili.com/video/BV1Ss411q75b?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click">U盘装系统哪家强？U盘装系统教程篇_哔哩哔哩_bilibili</a>)，注意只看安装winpe的那一段。也就是从01.10到04.00，或者看（<a href="https://www.bilibili.com/video/BV1DJ411D79y?p=2">【装机教程】超详细WIN10系统安装教程，官方ISO直装与PE两种方法教程，UEFI+GUID分区与Legacy+MBR分区_哔哩哔哩_bilibili</a>）从03.33到11.00.</p><p>3.将电脑关机，进入安全模式，选择从u盘启动，然后会进入windowspe系统，静静等待，进入后，找到密码擦除即可。</p>]]></content>
       
       
-      <categories>
-          
-          <category> 电脑相关 </category>
-          
-      </categories>
-      
       
     </entry>
     
